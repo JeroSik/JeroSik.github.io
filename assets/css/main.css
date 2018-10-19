@@ -1545,7 +1545,6 @@ input, select, textarea {
 		}
 
 /* Image */
-
 	.image {
 		display: inline-block;
 	}
@@ -2192,3 +2191,93 @@ input, select, textarea {
 			}
 
 		}
+
+/* Projects */
+	a:link {
+		text-decoration: none;
+	  color: black;
+	}
+
+	a:visited {
+	  text-decoration: none;
+	  color: black;
+	}
+
+	a:hover {
+	  text-decoration: underline;
+	  color: black;
+	}
+
+	a:active {
+	  text-decoration: underline;
+	  color: black;
+	}
+/* .container {
+	position: relative;
+	width: 50%;
+}
+.img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color:  background-color: rgba(255, 255, 255, 0);
+
+	display:flex;
+	text-align: center;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	font-family: Cabin;
+	font-weight: bold;
+}
+.container:hover .overlay {
+	background-color: rgba(255, 255, 255, 0.75);
+	opacity: 0.5;
+}
+.overlay h3 {
+	color: black;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+.overlay h4 {
+	color: black;
+	text-align: center;
+	font-family: Cabin;
+	font-weight: bold;
+	font-size: 30px;
+	margin-top: 10px;
+}
+
+.overlay h4:after {
+text-align: center;
+content: ""; /* This is necessary for the pseudo element to work. */
+display: block; /* This will put the pseudo element on its own line. */
+margin: 0 auto; /* This will center the border. */
+width: 60%; /* Change this to whatever width you want. */
+padding: 5px; /* This creates some space between the element and the border. */
+border-bottom: 2px solid #808080; /* This creates the border. Replace black with whatever color you want. */
+}
+
+.overlay p {
+text-align: center;
+font-size: 15px;
+padding: 0 40px;
+font-family: Quicksand;
+} */
